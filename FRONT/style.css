@@ -1,0 +1,100 @@
+.container{
+    width: 97%;
+}
+
+.prg_track{
+    counter-reset: step;
+}
+
+.prg_track li {
+    list-style-type: none;
+    float: left;
+    width: 25%;
+    position: relative;
+    text-align: center;
+}
+
+.prg_track li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 2px solid grey;
+    display: block;
+    text-align: center;
+    margin: 0 auto 5px auto;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+
+.prg_track li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: gray;
+    top: 15px;
+    left: -50%;
+    z-index: -1;
+    
+}
+
+.prg_track li:first-child:after{
+    content: none;
+}
+
+.prg_track li.active{
+    color: green;
+}
+
+.prg_track li.active:before{
+    border-color: green;
+}
+
+.prg_track li.active + li:after{
+    background-color: green;
+}
+
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    color:black;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.row-footer{
+    background-color: #3071AA;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 20px 0px 20px 0px;
+    color: rgba(252, 248, 227, 0.9);
+}
+
+footer h4{
+    font-size: 28px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+footer ul{
+    font-size: 20px;
+    color: rgba(252, 248, 227, 0.9);
+}
+
+footer address{
+    font-size: 20px;
+}
+
+footer p{
+    font-size: 20px;
+}
+footer a{
+    color: rgba(252, 248, 227, 0.9);
+}
+footer a:hover{
+    color: yellow;
+}

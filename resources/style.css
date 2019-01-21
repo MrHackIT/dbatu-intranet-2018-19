@@ -1,0 +1,77 @@
+.container{
+    width: 97%;
+}
+
+.prg_track{
+    counter-reset: step;
+}
+
+.prg_track li {
+    list-style-type: none;
+    float: left;
+    width: 20%;
+    position: relative;
+    text-align: center;
+}
+
+.prg_track li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 2px solid grey;
+    display: block;
+    text-align: center;
+    margin: 0 auto 5px auto;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+
+.prg_track li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: gray;
+    top: 15px;
+    left: -50%;
+    z-index: -1;
+    
+}
+
+.prg_track li:first-child:after{
+    content: none;
+}
+
+.prg_track li.active{
+    color: green;
+}
+
+.prg_track li.active:before{
+    border-color: green;
+}
+
+.prg_track li.active + li:after{
+    background-color: green;
+}
+
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background-image:url(batu333.jpg);
+    color:black;
+    min-height: 350px;
+    background-attachment:fixed;
+    
+}
+
+.row-footer{
+    background-color: lightgray;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+
