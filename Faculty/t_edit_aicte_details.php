@@ -541,7 +541,7 @@ header('location:post_edit_msg.php');
     </li>
   </div>
   <?php
-    if(){}
+  
 
    ?>
   <div class="form-group col-lg-2">
