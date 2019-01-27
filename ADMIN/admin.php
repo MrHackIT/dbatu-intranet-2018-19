@@ -191,6 +191,7 @@
         <li><a href="admin_queries/CHEMICAL/bank/" >Banking Details</a></li>
         </ul>
         </li>
+        
 
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">PETRO CHEMICAL<span class="caret"></span></a>
@@ -201,6 +202,7 @@
         <li><a href="admin_queries/PETROCHEMICAL/bank/" >Banking Details</a></li>
         </ul>
         </li>
+
 
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">CIVIL<span class="caret"></span></a>
