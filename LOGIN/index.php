@@ -96,13 +96,12 @@ if(isset($_POST['submit']))
         <div class="col-sm-2"><center><img src="img/Batu_logo4.png" class="element" id="universityLogo"></center></div>
         <div class="col-sm-10">
             <h2 id="pageHeader" class="text-left">Dr Babasaheb Ambedkar Technological University, Lonere</h2>
-            <h3 class="text-center" id="subHeading">Welcome to the CampusConnect Portal!</h3>
+            <h3 class="text-center" id="subHeading">Welcome to the CampusConnect Portal!
+            <a href="#"><img src="img/icons/linkedin_icon.png" alt="Link to LinkedIn page" class="socialMediaIcons" align="right"></a>
+            <a href="#"><img src="img/icons/twitter_icon.png" alt="Link to Twitter page" class="socialMediaIcons" align="right"></a>
+            <a href="#"><img src="img/icons/fb_icon.png" alt="Link to Facebook page" class="socialMediaIcons" align="right"></a></h3>
         </div>
-        <div class="row">
-          <a href="#"><img src="img/icons/linkedin_icon.png" alt="Link to LinkedIn page" class="socialMediaIcons" align="right"></a>
-          <a href="#"><img src="img/icons/twitter_icon.png" alt="Link to Twitter page" class="socialMediaIcons" align="right"></a>
-          <a href="#"><img src="img/icons/fb_icon.png" alt="Link to Facebook page" class="socialMediaIcons" align="right"></a>
-        </div>
+
       </div>
 
       <div class="container">
