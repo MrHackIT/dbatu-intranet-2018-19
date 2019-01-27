@@ -271,7 +271,7 @@ if($query3)
         <div id="page-content-wrapper">
 
 
-        <div class="jumbotron text-center">
+        <div class="text-center" style="padding-top: 10px; padding-bottom: 10px; background-color: #eee;">
             <h1>Education Details</h1>
         </div>
       </div>

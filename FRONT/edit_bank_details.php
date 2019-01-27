@@ -238,7 +238,7 @@ header('location: post_edit_msg.php');
     <link href="../LOGIN/css/style.css" rel="stylesheet">
     <link href="../LOGIN/css/bootstrap.css" rel="stylesheet" />
     <link href="../LOGIN/css/font-awesome.css" rel="stylesheet" />
-    
+
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <style>
     .container{
@@ -279,7 +279,7 @@ header('location: post_edit_msg.php');
             </ul>
         </div>
         <div id="page-content-wrapper">
-        <div class="jumbotron text-center">
+        <div class="text-center" style="padding-top: 10px; padding-bottom: 10px; background-color: #eee;">
             <h1>Banking Information</h1>
         </div>
       </div>

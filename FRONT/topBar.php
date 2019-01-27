@@ -1,7 +1,7 @@
-<p style="padding:5px;"></p>
+
         <div class="row col-sm-12">
           <div class="col-sm-3 text-left">
-            
+
           </div>
           <div class="col-sm-6 text-center">
             <h3 align="center">Welcome <?php echo $_SESSION["user_id"]?> (Logged in as <b>Student</b>)</h3>

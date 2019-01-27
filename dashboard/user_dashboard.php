@@ -41,12 +41,14 @@
                                 <div class="col-sm-2"><center><img src="../LOGIN/img/Batu_logo4.png" class="element" id="universityLogo"></center></div>
                                 <div class="col-sm-10">
                                 <h2 id="pageHeader" class="text-left">Dr Babasaheb Ambedkar Technological University</h2>
-                                <br><p class="text-center" id="subHeading">Welcome to the CampusConnect Portal!</p>
+                                <h3 class="text-center" id="subHeading">Welcome to the CampusConnect Portal!
+                                    <a href="../LOGIN/logout.php" class="btn btn-danger pull-right" align="right">Logout</a>
+                                </h3>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <a href="../LOGIN/logout.php" class="btn btn-danger pull-right" align="right">Logout</a>
+
                             </div>
                         </div>
 
@@ -63,12 +65,12 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">Welcome <?php echo $_SESSION["user_id"];?></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      
+
       <ul class="nav navbar-nav navbar-right">
         <li>
                     <a href="../FRONT/edit_personal_details.php">View & Edit Profile</a>
@@ -88,7 +90,7 @@
                 <li>
                     <a href="#">Contact</a>
                 </li>
-                
+
         </ul>
     </div>
   </div>
@@ -98,7 +100,7 @@
 
 
 
-  
+
 </body>
 
 </html>

@@ -182,12 +182,12 @@ header('location:post_edit_msg.php');
         </div>
         <div id="page-content-wrapper">
 
-        <div class="jumbotron text-center" id="personalDetailstext">
+        <div class="text-center" style="padding-top: 10px; padding-bottom: 10px; background-color: #eee;">
 
             <h1>Personal Details</h1>
         </div>
       </div>
-        
+
 <?php include 'topBar.php'; ?>
 <p style="padding:40px;"></p>
 <div class= "col-md-2"></div>
@@ -203,7 +203,7 @@ header('location:post_edit_msg.php');
             </div></div>
         <p style="padding:20px;"></p>
         <p style="margin:50px"></p>
-        
+
         <div class="container">
             <div class="col-lg-12">
     <div class="panel panel-info">
