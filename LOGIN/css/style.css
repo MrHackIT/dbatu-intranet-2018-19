@@ -59,8 +59,8 @@
 
 
 .jumbotron {
-    padding:70px 30px 70px 30px;
-    margin:0px auto;
+    padding:10px 10px 10px 10px;
+    margin:0px;
     color:black;
     background-attachment:fixed;
 
@@ -543,12 +543,7 @@ body {
   font-size: 28px;
 }
 
-.jumbotron {
-    padding:70px 30px 70px 30px;
-    margin:0px auto;
-    background-repeat: no-repeat;
-    color:black;
-}
+
 
 #universityLogo
 {

@@ -207,8 +207,8 @@ if( isset($_POST['submit_paper']) )
         <div id="page-content-wrapper">
 
 
-		<div class="jumbotron text-center">
-        <h1>Professional Details</h1>
+		<div class="text-center" style="background-color:#eee; padding-top:10px; padding-bottom:10px;">
+        <h1 style="font-size:40px;">Professional Details</h1>
         </div>
         <?php include 'topBar.php'; ?>
 </div>

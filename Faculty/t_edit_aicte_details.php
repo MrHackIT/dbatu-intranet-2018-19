@@ -242,7 +242,7 @@ header('location:post_edit_msg.php');
             </ul>
         </div>
         <div id="page-content-wrapper">
-<div class="jumbotron text-center">
+<div class="text-center" style="padding-top: 10px; padding-bottom: 10px; background-color: #eee;">
    <h1 style="font-size:40px;">AICTE</h1>
 </div>
 <?php include 'topBar.php'; ?>
@@ -541,7 +541,7 @@ header('location:post_edit_msg.php');
     </li>
   </div>
   <?php
-  
+
 
    ?>
   <div class="form-group col-lg-2">

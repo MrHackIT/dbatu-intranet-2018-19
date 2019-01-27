@@ -137,11 +137,11 @@ if($ext == 'jpg' || $ext == 'jpeg' || $ext == 'JPG' || $ext == 'JPEG')
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Edit Personal Details</title>
-<link href="../LOGIN/css/bootstrap.min.css" rel="stylesheet">
+<title>Edit Personal Details</title><!--
+<link href="../LOGIN/css/bootstrap.min.css" rel="stylesheet">-->
 <link href="../LOGIN/css/bootstrap-theme.min.css" rel="stylesheet">
 <link href="../LOGIN/css/bootstrapValidator.min.css" rel="stylesheet">
-<link href="../LOGIN/style.css" rel="stylesheet">
+
 <link href="../LOGIN/css/style.css" rel="stylesheet">
 <link href="../LOGIN/css/bootstrap.css" rel="stylesheet" />
 <link href="../LOGIN/css/font-awesome.css" rel="stylesheet" />
@@ -164,8 +164,8 @@ if($ext == 'jpg' || $ext == 'jpeg' || $ext == 'JPG' || $ext == 'JPEG')
         <div id="page-content-wrapper">
 
 
-        <div class="jumbotron text-center">
-            <h1>Personal Details</h1>
+        <div class="text-center" style="padding-top:10px; padding-bottom: 10px; background-color: #eee;">
+            <h1 style="font-size:40px;">Personal Details</h1>
         </div>
         <?php include 'topBar.php'; ?>
 

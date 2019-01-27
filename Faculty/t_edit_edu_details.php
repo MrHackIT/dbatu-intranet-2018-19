@@ -168,8 +168,8 @@ $retval = mysqli_query($conn, $sql);
         <div id="page-content-wrapper">
 
 
-		<div class="jumbotron text-center">
-            <h1>Education Details</h1>
+		<div class="text-center" style="padding-top: 10px; padding-bottom: 10px; background-color: #eee;">
+            <h1 style="font-size:40px;">Education Details</h1>
         </div>
 <?php include 'topBar.php'; ?>
 
